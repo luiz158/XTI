@@ -2,6 +2,16 @@ package br.com.xti.poo;
 
 public class Matematica {
 	
+	/** @return a raiz quadrada do númerosegunda equação de Pell	 */
+	int raiz(int numero) {
+		int count = 1;
+		for (int i = 1; numero - i > 2; i+=2) {
+			numero -= i;
+			count++;
+		}		
+		return count;
+	}
+	
 	/**
 	 * 
 	 * @param um
@@ -16,6 +26,12 @@ public class Matematica {
 		}
 	}
 	
+	/**
+	 * 
+	 * @param um
+	 * @param dois
+	 * @return retorna soma de dois números
+	 */
 	double soma(double um, double dois) {
 		double s = um + dois;
 		return s;
