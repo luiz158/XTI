@@ -1,6 +1,5 @@
 package br.com.xti.poo;
 
-@SuppressWarnings("unused")
 /* Teste dentro da Classe Funcionário */
 public class Funcionario {
 	
