@@ -30,7 +30,7 @@ public class Matematica {
 	 * 
 	 * @param um
 	 * @param dois
-	 * @return retorna soma de dois números
+	 * @return retorna soma de n números
 	 */
 	double soma(double ... numeros) {
 		double total = 0;
