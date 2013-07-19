@@ -11,6 +11,9 @@ public class AnimalTest {
 		Galinha merilu = new Galinha();
 		merilu.comida = "Milho";
 		merilu.dormir();
+		
+		System.out.println(toto instanceof Cachorro);
+		System.out.println(toto instanceof Animal);
 	}
 
 }
