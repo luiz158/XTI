@@ -1,12 +1,11 @@
 package br.com.xti.heranca;
 
 public class Cachorro extends Animal {
-	
+
+	@Override
 	void fazerBarulho() {
-		System.out.println("Au, Au");
+		System.out.println("Au, Au!");
+		
 	}
 	
-	public Cachorro() {
-		super(30, "Carne");
-	}
 }
