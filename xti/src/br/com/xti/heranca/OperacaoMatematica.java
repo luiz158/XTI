@@ -1,7 +1,7 @@
 package br.com.xti.heranca;
 
-public abstract class OperacaoMatematica {
+public class OperacaoMatematica {
 	
-	public abstract double calcular(double x, double y);
+	public double calcular(double x, double y) {return 0;}
 	
 }
