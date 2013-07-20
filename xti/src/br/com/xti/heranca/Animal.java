@@ -9,6 +9,6 @@ public abstract class Animal {
 		System.out.println("Dormiu");
 	}
 	
-	abstract void fazerBarulho();
+	public abstract void fazerBarulho();
 
 }

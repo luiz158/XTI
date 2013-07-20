@@ -2,10 +2,17 @@ package br.com.xti.heranca;
 
 public class AnimalTest {
 	
-	public static void barulho(Animal animal) {
+	/**
+	 * @method seleção por Polimorfismo
+	 */
+	public static void fazerBarulho(Animal animal) {
 		animal.fazerBarulho();
 	}
-
+	
+	/**
+	 * 
+	 * @method seleção por bloco Condicional
+	 */
 	public static void barulhoSemPolimorfismo(String animal) {
 		if(animal.equals("Cachorro")) {
 			System.out.println("Au, Au!");
@@ -19,12 +26,14 @@ public class AnimalTest {
 		// Animal generico = new Animal(0, null);
 		Animal toto = new Cachorro();
 		Animal merilu = new Galinha();
-/*		
-		barulho(toto);
-		barulho(merilu);
-*/
+		
+		fazerBarulho(toto);
+		fazerBarulho(merilu);
+/*
 		barulhoSemPolimorfismo("Cachorro");
 		barulhoSemPolimorfismo("Galinha");
+*/		
+		
 	}
 
 }
