@@ -3,7 +3,7 @@ package br.com.xti.poo;
 public class Cachorro {
 	
 	int tamanho;
-	String raça;
+	String raca;
 	
 	//	##Versionado com GIT.
 	void latir() {
